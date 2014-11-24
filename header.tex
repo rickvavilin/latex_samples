@@ -9,17 +9,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 
-\newlength{\textundbildtextheight}
- 
-\newcommand{\textundbild}[2]{
-\settototalheight\textundbildtextheight{\vbox{#1}}
-#1
-\vfill
-\begin{center}
-\includegraphics[width=\textwidth,keepaspectratio=true,height=\textheight-\the\textundbildtextheight]{#2}
-\end{center}
-\vfill
-}
+
 
 \ESKDtitle{LaTeX Samples}
 \ESKDdocName{Примеры использования LaTeX}
